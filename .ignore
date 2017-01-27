@@ -6,20 +6,15 @@
 /** ---                                                               --- **/
 /** --------------------------------------------------------------------- **/
 /** --------------------------------------------------------------------- **/
+// 1. Exclude these files for all
 FILES {
 	README.md
 	LICENSE
 }
 
-
+// 2. Exclude these folders for all
 FOLDERS {
 }	
-
-REQUEST_URI ~SYSLang.V {
-	FILES {
-		~SYSLang
-	}
-}
 
 
 
